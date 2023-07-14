@@ -1,0 +1,1003 @@
+[13-Jul-2023 17:50:11 America/Bogota] PHP Warning:  Undefined property: TaskController::$view in C:\xampp\htdocs\test-task-management-app\controller\taskController.php on line 27
+[13-Jul-2023 17:50:11 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in C:\xampp\htdocs\test-task-management-app\controller\taskController.php:27
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#1 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#2 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\controller\taskController.php on line 27
+[13-Jul-2023 17:50:12 America/Bogota] PHP Warning:  Undefined property: TaskController::$view in C:\xampp\htdocs\test-task-management-app\controller\taskController.php on line 27
+[13-Jul-2023 17:50:12 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in C:\xampp\htdocs\test-task-management-app\controller\taskController.php:27
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#1 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#2 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\controller\taskController.php on line 27
+[13-Jul-2023 17:50:12 America/Bogota] PHP Warning:  Undefined property: TaskController::$view in C:\xampp\htdocs\test-task-management-app\controller\taskController.php on line 27
+[13-Jul-2023 17:50:12 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in C:\xampp\htdocs\test-task-management-app\controller\taskController.php:27
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#1 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#2 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\controller\taskController.php on line 27
+[13-Jul-2023 18:01:53 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:02:08 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:02:09 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:02:09 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:02:09 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:02:31 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:02:31 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:02:32 America/Bogota] PHP Fatal error:  Uncaught Error: Class "Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:03:42 America/Bogota] PHP Fatal error:  Uncaught Error: Class "models/Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('models/Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('models/Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:03:42 America/Bogota] PHP Fatal error:  Uncaught Error: Class "models/Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('models/Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('models/Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:03:43 America/Bogota] PHP Fatal error:  Uncaught Error: Class "models/Priority" not found in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php:793
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php(103): Illuminate\Database\Eloquent\Model->newRelatedInstance('models/Priority')
+#1 C:\xampp\htdocs\test-task-management-app\models\Task.php(17): Illuminate\Database\Eloquent\Model->hasOne('models/Priority', 'priority', 'id_priority')
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(785): Task->getPriority()
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(110): Illuminate\Database\Eloquent\Builder->Illuminate\Database\Eloquent\{closure}()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(789): Illuminate\Database\Eloquent\Relations\Relation::noConstraints(Object(Closure))
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(757): Illuminate\Database\Eloquent\Builder->getRelation('getPriority')
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#8 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#9 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#10 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#11 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Concerns\HasRelationships.php on line 793
+[13-Jul-2023 18:04:43 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:04:44 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:04:44 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:04:44 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:05:14 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:05:15 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:05:16 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:05:16 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:05:16 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:05:16 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:416
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(416): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(788): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#13 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#14 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#15 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#16 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#17 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#18 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#19 {main}
+
+Next Illuminate\Database\QueryException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prioritys.priority' in 'where clause' (Connection: default, SQL: select * from `prioritys` where `prioritys`.`priority` in (?)) in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php:795
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(755): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php(424): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2748): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2736): Illuminate\Database\Query\Builder->runSelect()
+#4 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(3290): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Query\Builder.php(2737): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(720): Illuminate\Database\Query\Builder->get(Array)
+#7 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(704): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(203): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Relations\Relation.php(166): Illuminate\Database\Eloquent\Relations\Relation->get()
+#10 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(768): Illuminate\Database\Eloquent\Relations\Relation->getEager()
+#11 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(737): Illuminate\Database\Eloquent\Builder->eagerLoadRelation(Array, 'getPriority', Object(Closure))
+#12 C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Eloquent\Builder.php(705): Illuminate\Database\Eloquent\Builder->eagerLoadRelations(Array)
+#13 C:\xampp\htdocs\test-task-management-app\controller\taskController.php(24): Illuminate\Database\Eloquent\Builder->get()
+#14 C:\xampp\htdocs\test-task-management-app\libs\app.php(28): TaskController->show('task')
+#15 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#16 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\vendor\illuminate\database\Connection.php on line 795
+[13-Jul-2023 18:07:51 America/Bogota] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\test-task-management-app\models\User.php on line 21
+[13-Jul-2023 18:07:52 America/Bogota] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\test-task-management-app\models\User.php on line 21
+[13-Jul-2023 18:07:52 America/Bogota] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\test-task-management-app\models\User.php on line 21
+[13-Jul-2023 18:08:09 America/Bogota] PHP Fatal error:  Cannot declare class Task, because the name is already in use in C:\xampp\htdocs\test-task-management-app\models\User.php on line 5
+[13-Jul-2023 18:21:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:22:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:22:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:22:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:22:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:22:46 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:24:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:24:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:24:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:24:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:24:11 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:24:11 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:52:05 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:52:05 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:52:05 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:52:06 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:52:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:52:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:52:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:53:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:53:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:53:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:53:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:53:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:54:41 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:54:42 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:06 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:09 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:55:10 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:57:32 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:57:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:57:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:57:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:57:52 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:31 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:31 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:37 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:40 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:58:43 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:59:01 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:59:01 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:59:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:59:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 18:59:36 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method registerController::render() in C:\xampp\htdocs\test-task-management-app\libs\app.php:54
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#1 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\libs\app.php on line 54
+[13-Jul-2023 19:45:35 America/Bogota] APP::construct-> no hay controlador especificado
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Attempt to read property "id_priority" on null in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Attempt to read property "id_priority" on null in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Attempt to read property "id_priority" on null in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Attempt to read property "id_priority" on null in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Attempt to read property "id_priority" on null in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 20:15:24 America/Bogota] PHP Warning:  Attempt to read property "id_priority" on null in C:\xampp\htdocs\test-task-management-app\views\new_task.php on line 32
+[13-Jul-2023 22:10:37 America/Bogota] PHP Warning:  Undefined array key "errors" in C:\xampp\htdocs\test-task-management-app\views\login.php on line 8
+[13-Jul-2023 22:39:52 America/Bogota] PHP Fatal error:  Uncaught Error: Class "User" not found in C:\xampp\htdocs\test-task-management-app\controller\loginController.php:21
+Stack trace:
+#0 C:\xampp\htdocs\test-task-management-app\libs\app.php(34): loginController->loginSession()
+#1 C:\xampp\htdocs\test-task-management-app\views\app.php(19): App->__construct()
+#2 C:\xampp\htdocs\test-task-management-app\index.php(10): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\test-task-management-app\controller\loginController.php on line 21
+[13-Jul-2023 23:01:32 America/Bogota] PHP Warning:  Undefined global variable $_SESSION in C:\xampp\htdocs\test-task-management-app\views\layouts\navbar.php on line 3
+[13-Jul-2023 23:01:32 America/Bogota] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\test-task-management-app\views\layouts\navbar.php on line 3
+[13-Jul-2023 23:10:42 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\test-task-management-app\controller\newTaskController.php on line 13
+[13-Jul-2023 23:10:42 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\test-task-management-app\controller\newTaskController.php on line 13
+[13-Jul-2023 23:10:42 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\test-task-management-app\controller\newTaskController.php on line 13
+[13-Jul-2023 23:10:43 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\test-task-management-app\controller\newTaskController.php on line 13
+[13-Jul-2023 23:10:43 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\test-task-management-app\controller\newTaskController.php on line 13
+[13-Jul-2023 23:13:12 America/Bogota] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\test-task-management-app\controller\loginController.php on line 29
